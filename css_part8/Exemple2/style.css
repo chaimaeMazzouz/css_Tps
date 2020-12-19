@@ -1,0 +1,26 @@
+.menu_accordeon {
+  width: 200px;
+  background-color: #cccccc;
+  padding: 10px;
+  margin-bottom: 1px;
+  font: 10pt verdana;
+  color: #ffffff;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.menu_accordeon:hover {
+  background-color: #ffffff;
+  color: #003569;
+  border: 1px solid #003569;
+  border-bottom: 60px solid #003569;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

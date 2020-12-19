@@ -1,0 +1,21 @@
+.cours_transitions {
+  width: 200px;
+  height: 200px;
+  background-color: #ff8800;
+  margin: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.cours_transitions:hover {
+  background-color: #003569;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

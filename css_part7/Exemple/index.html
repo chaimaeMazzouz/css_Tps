@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Formulaire Responsif</h2>
+    <p></p>
+    <div class="conteneur">
+      <form action="">
+        <div class="row">
+          <div class="col-25">
+            <label for="Nom">Nom</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              name="Prenom"
+              id="Nom"
+              placeholder="Votre nom ..."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Nom">Prenom</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              name="Prenom"
+              id="Prenom"
+              placeholder="Votre prénom ..."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Pays">Pays</label>
+          </div>
+          <div class="col-75">
+            <select name="Pays" id="Pays">
+              <option value="Maroc">Maroc</option>
+              <option value="Canada">Canada</option>
+              <option value="US">US</option>
+              <option value="France">France</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Sujet">Sujet</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              name="Sujet"
+              id="Sujet"
+              placeholder="Ecrire un Sujet..."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Envoyer" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

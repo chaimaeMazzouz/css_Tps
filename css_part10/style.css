@@ -1,0 +1,32 @@
+#objet {
+  width: 100px;
+  height: 100px;
+  background-color: #e80;
+  animation-name: monanimation;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-direction: normal;
+}
+@keyframes monanimation {
+  0% {
+    transform: translate(0, 0) rotate(0);
+    background-color: #e80;
+  }
+  25% {
+    transform: translate(100%, 0) rotate(-90deg);
+    background-color: #0a0;
+  }
+  50% {
+    transform: translate(100%, 100%) rotate(-180deg);
+    background-color: #f0f;
+  }
+  75% {
+    transform: translate(0, 100%) rotate(-270deg);
+    background-color: #00a;
+  }
+  100% {
+    transform: translate(0, 0) rotate(-360deg);
+    background-color: #e80;
+  }
+}
